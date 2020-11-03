@@ -1,11 +1,12 @@
 class ImagesController < ApplicationController
   before_action :set_image, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
+  before_action :is_owner?, only: :edit
 
   # GET /images
   # GET /images.json
   def index
-    @images = Image.all
+    @images = current_user.images.all
   end
 
   # GET /images/1
@@ -72,4 +73,12 @@ class ImagesController < ApplicationController
     def image_params
       params.require(:image).permit(:description, :picture)
     end
+
+    # Check if user is owner of the image
+    def is_owner? 
+      if current_user.id != @image.user_id
+        redirect_to "/images"
+      end
+    end
+
 end
