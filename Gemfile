@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Add devise for user authentication
 gem 'devise'
+
+# rspce fot testing
+gem 'rspec-rails', '~> 4.0.1'
