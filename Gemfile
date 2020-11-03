@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Add devise for user authentication
 gem 'devise'
+gem "aws-sdk-s3", "~> 1.83"
+
+gem "aws-sdk", "~> 3.0"
