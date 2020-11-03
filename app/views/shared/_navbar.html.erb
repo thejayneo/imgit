@@ -1,0 +1,17 @@
+<nav>
+    <div id="logo">
+        <img src="https://jacksonn.dev/imgit/logo.png">
+    </div>
+    <% if user_signed_in? %>
+        <div id="user_signout">
+            <li><%= link_to "Sign Out", destroy_user_session_path %></li>
+        </div>
+    <% else %>
+        <div id="create_acc">
+            <li><%= link_to "Create Account", new_user_registration_path %></li>
+        </div>
+        <div id="user_signin">
+            <li><%= link_to "Sign In", new_user_session_path %></li>
+        </div>
+    <% end %>
+</nav>

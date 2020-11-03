@@ -1,5 +1,5 @@
-current directory: /Users/jackson/Google-Drive/PC-Mac-Sync/CoderAcademy/termTwo/weekFour/hackathon-rails-app/imgit/vendor/cache/ruby/2.7.0/gems/pg-1.2.3/ext
-/Users/jackson/.rbenv/versions/2.7.2/bin/ruby -I /Users/jackson/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201102-82648-nc5m2b.rb extconf.rb
+current directory: /Users/jackson/Desktop/hackathon-rails-app/fork/imgit/vendor/cache/ruby/2.7.0/gems/pg-1.2.3/ext
+/Users/jackson/.rbenv/versions/2.7.2/bin/ruby -I /Users/jackson/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201103-12206-7g46ff.rb extconf.rb
 checking for pg_config... yes
 Using config values from /usr/local/bin/pg_config
 checking for libpq-fe.h... yes
@@ -20,10 +20,10 @@ checking for C99 variable length arrays... yes
 creating extconf.h
 creating Makefile
 
-current directory: /Users/jackson/Google-Drive/PC-Mac-Sync/CoderAcademy/termTwo/weekFour/hackathon-rails-app/imgit/vendor/cache/ruby/2.7.0/gems/pg-1.2.3/ext
+current directory: /Users/jackson/Desktop/hackathon-rails-app/fork/imgit/vendor/cache/ruby/2.7.0/gems/pg-1.2.3/ext
 make "DESTDIR=" clean
 
-current directory: /Users/jackson/Google-Drive/PC-Mac-Sync/CoderAcademy/termTwo/weekFour/hackathon-rails-app/imgit/vendor/cache/ruby/2.7.0/gems/pg-1.2.3/ext
+current directory: /Users/jackson/Desktop/hackathon-rails-app/fork/imgit/vendor/cache/ruby/2.7.0/gems/pg-1.2.3/ext
 make "DESTDIR="
 compiling gvl_wrappers.c
 compiling pg.c
@@ -148,6 +148,6 @@ pg_util.c:119:24: warning: implicit conversion loses integer precision: 'long' t
 1 warning generated.
 linking shared-object pg_ext.bundle
 
-current directory: /Users/jackson/Google-Drive/PC-Mac-Sync/CoderAcademy/termTwo/weekFour/hackathon-rails-app/imgit/vendor/cache/ruby/2.7.0/gems/pg-1.2.3/ext
+current directory: /Users/jackson/Desktop/hackathon-rails-app/fork/imgit/vendor/cache/ruby/2.7.0/gems/pg-1.2.3/ext
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 pg_ext.bundle ./.gem.20201102-82648-1akhf82
+/usr/local/bin/ginstall -c -m 0755 pg_ext.bundle ./.gem.20201103-12206-1mybxfe
