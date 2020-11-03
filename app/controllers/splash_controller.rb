@@ -3,7 +3,7 @@ class SplashController < ApplicationController
 before_action :authenticate_user!
   def splash
     if user_signed_in?
-      redirect_to: "images#index"
+      redirect_to "/images/"
     else 
       redirect_to "users#sign_up"
     end
