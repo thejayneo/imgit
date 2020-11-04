@@ -58,3 +58,6 @@ gem 'devise'
 gem "aws-sdk-s3", "~> 1.83"
 
 gem "aws-sdk", "~> 3.0"
+
+#rspec testing
+gem 'rspec-rails', '~> 4.0.1'
